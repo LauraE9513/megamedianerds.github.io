@@ -30,6 +30,9 @@
     float: right;
     margin-left: 5%;
 }
+body {
+    background-color: var(--background-color-2);
+}
         nav {
             width: 1em auto 3em auto;
             width: min(1000px, 100%);
@@ -64,4 +67,22 @@
         .button:hover {
             background-color: var(--hover-color);
         }
-        
+        p {
+            text-align: center;
+            margin-top: 2em;
+            font-size: 2em;
+            font-family: Montserrat;
+        }
+        div {
+            display: flex;
+            justify-content: center;
+            padding-top: 2vw;
+
+        }
+        iframe {
+            width: 560px;
+            height: 315px;
+        }
+        .About {
+            text-align: center;
+        }
