@@ -13,26 +13,45 @@
         <img src="images/AdobeStock_556501391.png" width="120vw" class="left-align-image">
         <h1>Mega Media Nerds</h1>
         <img src="images/Glasses.png" width= "120vw" class ="right-aligned-image">
-    </header>
+        </header>
     <nav>
         <ul>
             <li><a href="#" class="button">Home</a></li>
-            <li><a href="#" class="button">About</a></li>
+            <li><a href="#About" class="button">About</a></li>
             <li><a href="https://www.instagram.com/storytimewchrisanddaniel/" class="button">Instagram</a></li>
             <li><a href="https://www.youtube.com/@screenwoven" class="button">YouTube</a></li>
-            <li><a href="#" class="button">Contact Us</a>
+            <li><a href="#Contact" class="button">Contact Us</a>
         </ul>
     </nav>
         <p>Our most recent video:</p>
      <div>
-        <iframe
+        <iframe class="recent"
          src="https://www.youtube.com/embed?listType=playlist&list=UU7zPFCxG8fyaRg1fiVD-DcA">
         </iframe>
      </div>
+     <p>Next 3 videos:</p>
+     <div>
+        <iframe src="https://www.youtube.com/embed?listType=playlist&list=UU7zPFCxG8fyaRg1fiVD-DcA&index=2">
+        </iframe>
+        <iframe src="https://www.youtube.com/embed?listType=playlist&list=UU7zPFCxG8fyaRg1fiVD-DcA&index=3">
+        </iframe>
+        <iframe src="https://www.youtube.com/embed?listType=playlist&list=UU7zPFCxG8fyaRg1fiVD-DcA&index=4">
+        </iframe>
+     </div>
      <div class="About">
-        <h1>About Us</h1>
-        <br>
-        <p> We are a group of friends who like to nerd out over movie, video games, tv, and tons of other content. </p>
+        <h1 class="Title" id="About">About Us:</h1>
+        <p class="info"> We are a group of friends who like to nerd out over movies, video games, tv, and tons of other content. Our three main hosts are Chris, Alex, and Ryan,
+             our camera work and technical work is done by Ryan's wife Laura, and our social media is run by Chris's wife Regla. We really hope 
+             that you come to enjoy our videos as much as we enjoy creating them and we welcome any feedback so we can continue to improve. </p>
+     </div>
+     <div>
+        <h1 class="Contact_us" id="Contact">Contact Us:</h1><br>
+        <form>
+            <label for="email">Email:</label><br>
+            <input type="text" id="email" name="email"><br>
+            <label for="message">Message:</label><br>
+            <input type="text" id="message" name="message" class="message"><br>
+        </form>
      </div>
 </body>
 

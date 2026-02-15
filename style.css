@@ -20,7 +20,6 @@
             box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
             font-family: Diplomata;
             font-size: 2vw;
-            border-radius: 10px;
         }
 .left-align-image {
     float: left;
@@ -31,25 +30,27 @@
     margin-left: 5%;
 }
 body {
-    background-color: var(--background-color-2);
+    background-image: url('/images/movie-background-collage_23-2149876028.avif');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
 }
-        nav {
+nav {
             width: 1em auto 3em auto;
             width: min(1000px, 100%);
-            background-color: var(--background-color-2);
+            background-color: var(--background-color-1);
             position: absolute;
             left: 50%;
             transform: translateX(-50%);
         }
-
-        nav ul {
+         nav ul {
             display: flex;
             align-items: center;
             justify-content: space-between;
             gap: 2em;
         }
-        li {
-            margin: 10px 0;
+         li {
             display: inline;
             font-family: Montserrat;
         }
@@ -79,10 +80,23 @@ body {
             padding-top: 2vw;
 
         }
-        iframe {
+        .recent {
             width: 560px;
             height: 315px;
         }
         .About {
+            display: block;
             text-align: center;
+            margin-left: 10em;
+            margin-right: 10em;
+            margin-bottom: 10em;
+        }
+        .Title{
+            font-size: 3vw;
+        }
+        .info {
+            font-size: 1.5vw
+        }
+        .Contact_Us {
+            display: block;
         }
