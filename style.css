@@ -99,8 +99,9 @@ nav {
         .Contact_Us {
             display: block;
             justify-content: center;
+            margin-bottom: 5em;
         }
         .message {
-            height: 2vw;
-            width: 2vw;
+            height: 100px;
+            width: 100px;
         }
