@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Diplomata&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Press+Start+2P&display=swap" rel="stylesheet');
 :root {
     --background-color-1:#6699ff;
     --background-color-2:#f2f2f2;
@@ -18,7 +18,7 @@
             align-items: center;
             justify-content: center;
             box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-            font-family: Diplomata;
+            font-family: PressStart2P;
             font-size: 2vw;
         }
 .left-align-image {
@@ -34,7 +34,6 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    color: white;
 }
 nav {
             width: 1em auto 3em auto;
