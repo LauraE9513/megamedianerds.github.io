@@ -98,10 +98,10 @@ nav {
         }
         .Contact_Us {
             display: block;
-            text-align: center;
+            align-items: center;
             margin-bottom: 5em;
         }
         .message {
             height: 100px;
-            width: 100px;
+            width: 200px;
         }
